@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Love Compass Results</title>
+        <link rel="stylesheet" href="main.css">
+        <style>
+            #compass {
+                image-rendering: -moz-crisp-edges;
+                image-rendering: -webkit-crisp-edges;
+                image-rendering: pixelated;
+                image-rendering: crisp-edges;
+                border:5px solid black;
+            }
+            #marker {
+                position: absolute;
+                z-index: 2;
+                width: 20px;
+                height: 20px;
+                border-radius: 10px;
+                background-color: black;
+                border:5px solid white;
+            }
+        </style>
+        <script src="results.js"></script>
+    </head>
+    <body>
+        <div class="center content">
+            <div class="flex flex-center">
+                <img src="heart.gif" class="smal">
+                <h1>Love Compass Results</h1>
+                <img src="heart.gif" class="smal">
+            </div>
+            <div id="compass_whole">
+                <p class="center">summa</p>
+                <div class="flex">
+                    <p>amor hortator</p>
+                    <img id="compass" src="compass.png" width="60%">
+                    <p>amor vetitum</p>
+                </div>
+                <p class="center">indifferentem</p>
+            </div>
+            <h2 id="res_text" class="center">You are blah blah blah</h2>
+            <a href="quiz.html" class="center abtn">
+                Retake the quiz
+            </a>
+        </div>
+        <div id="marker"></div>
+    </body>
+</html>

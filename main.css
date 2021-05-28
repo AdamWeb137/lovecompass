@@ -1,0 +1,102 @@
+body {
+    background-color: rgb(179, 0, 0);
+    background-image: url("back.jpg");
+    font-family: "Comic Sans MS", "Comic Sans", ComicSansMS, cursive;
+}
+
+.center {
+    width: fit-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content {
+    background-color: rgb(255, 255, 255);
+    border:5px solid black;
+    border-radius: 25px;
+    width:fit-content;
+    padding:10px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.flex > * {
+    margin:5px;
+}
+
+.flex-center {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.smal {
+    width:8rem;
+    height: 8rem;
+}
+
+li p {
+    margin:1px;
+}
+
+.abtn {
+    background-color: red;
+    color:white;
+    text-decoration: none;
+    padding:15px;
+    border-radius: 25px;
+    font-size: 2rem;
+}
+
+.abtn:hover {
+    background-color: pink;
+    cursor: pointer;
+}
+
+.abtn:active{
+    background-color: darkred;
+}
+
+li, b, li p {
+    font-family: 1rem;
+}
+
+.btn-blue, .btn-red {
+    color:white;
+    padding:15px;
+    border-radius: 25px;
+    font-size: 1rem;
+    user-select: none;
+}
+
+.btn-blue {
+    background-color: blue;
+}
+
+.btn-red {
+    background-color: red;
+}
+
+.btn-blue:hover {
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+.btn-blue:active {
+    background-color: darkblue;
+}
+
+.btn-red:hover {
+    background-color: pink;
+    cursor: pointer;
+}
+
+.btn-red:active {
+    background-color: darkred;
+}
