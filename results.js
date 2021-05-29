@@ -50,6 +50,12 @@ class ResultsHandler {
         let xt = (ResultsHandler.x > 0) ? "amor vetitum" : "amor hortator";
         let yt = (ResultsHandler.y > 0) ? "summa" : "indifferentem";
         document.querySelector("#res_text").innerHTML = `You are ${ResultsHandler.get_per(ResultsHandler.x)}% ${xt} and ${ResultsHandler.get_per(ResultsHandler.y)}% ${yt}`;
+
+        let xe = (ResultsHandler.x > 0) ? "amor vetitum means you hate love" : "amor hortator means you encourage love";
+        let ye = (ResultsHandler.y > 0) ? "summa means you heavily enforce your beliefs" : "indifferentem means you don't care";
+
+        document.querySelector("#ex_text").innerHTML = `${xe} and ${ye}`;
+
     }
 
 }
